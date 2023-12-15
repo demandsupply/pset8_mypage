@@ -4,9 +4,22 @@
     box-sizing: border-box;
 }
 
+.pageWidth {
+    margin: auto;
+    max-width: 850px;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
 
 .navbar {
-    background-color: #e3f2fd;
+    background-color: #d8d6b9;
+}
+
+.footer-container {
+    height: 70px;
 }
 
 
@@ -18,6 +31,45 @@
     margin: 0 16px;
 }
 
-.container img {
-    /* margin: auto; */
+.container {
+    margin: auto;
+
+}
+
+h3 {
+    margin-top: 48px;
+    text-align: left;
+    font-size: 24px;
+}
+
+p {
+    text-align: left;
+}
+
+figure {
+    margin: 16px 0;
+}
+
+.quote {
+    margin: 24px 0;
+    display: flex;
+    background-color: #efeee1;
+}
+
+.quote span {
+    margin-top: -36px;
+}
+
+.social-container {
+    margin-bottom: -48px;
+}
+
+.social {
+    color: rgba(0,0,0,.55);
+}
+
+footer p {
+    color: rgba(0,0,0,.55);
+    margin-bottom: -48px;
+    font-size: 14px;
 }
