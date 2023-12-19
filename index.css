@@ -13,14 +13,6 @@
     border: 1px solid #000;
 }
 
-.p-relative {
-    position: relative;
-}
-
-.p-absolute {
-    margin-top: 300px;
-    position: absolute;
-}
 
 
 .navbar {
@@ -29,6 +21,7 @@
 
 .footer-container {
     height: 70px;
+    margin: 0 16px;
 }
 
 
