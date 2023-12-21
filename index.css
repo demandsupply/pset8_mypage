@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, 
+body {
+    height: 100%;
+}
+
 .pageWidth {
     margin: auto;
     max-width: 850px;
@@ -13,13 +18,23 @@
     border: 1px solid #000;
 }
 
+@media (max-width: 480px) {
+    #formResponsive {
+        flex-direction: column;
+    }
+}
 
+#formResponsive {
+    gap: 32px;
+}
 
 .navbar {
     background-color: #d8d6b9;
 }
 
+
 .footer-container {
+    position: relative;
     height: 70px;
     margin: 0 16px;
 }
