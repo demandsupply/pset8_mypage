@@ -28,6 +28,11 @@ body {
     gap: 32px;
 }
 
+#formResponsive > .container-fluid {
+    margin-top: 48px;
+
+}
+
 .navbar {
     background-color: #d8d6b9;
 }
