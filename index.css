@@ -107,3 +107,11 @@ footer p {
     margin-bottom: -48px;
     font-size: 14px;
 }
+
+.pageWidth-gallery {
+    max-width: 1280px;
+}
+
+#imagesContainer img {
+    width: 400px;
+}
