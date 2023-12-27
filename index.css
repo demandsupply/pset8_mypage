@@ -70,10 +70,31 @@ body {
 
 }
 
-h3 {
+/* Style the biography section and its hidden part */
+
+.button-header-container {
+    /* height: auto; */
+    display: flex;
+    align-items: center;
     margin-top: 48px;
+}
+
+h3 {
+    /* height: auto; */
     text-align: left;
     font-size: 24px;
+}
+
+#hideContent {
+    display: none;
+}
+
+.p-hide {
+    display: none;
+} 
+
+.p-show {
+    display: block;
 }
 
 p {
